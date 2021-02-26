@@ -80,6 +80,7 @@ a {
 @media (max-width: 1199.98px) {
   .home--btn--wrapper {
     margin-top: 40px;
+    margin-left: 0%;
   }
 }
 

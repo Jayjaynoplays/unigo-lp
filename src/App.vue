@@ -671,45 +671,43 @@ export default {
 
 @media (max-width: 525.98px) {
   .features {
-    height: 233vw;
+    height: 230vw;
+    margin-top: 15px;
   }
   .clubs-content,
   .guests--content {
-    top: 82vw;
+    top: 116vw;
+  }
+  .clubs-content{
+    left: 68% !important;
   }
   .question__title--wrapper {
     width: 421px;
     /* height: 9vw; */
-  }
-  .pic1 {
-    width: 45vw;
-    height: auto;
   }
   .info_2 {
     top: 60vw;
     right: 4%;
   }
   .pic2-bg {
-    left: 2%;
-    top: 62vw;
+    top: 58vw;
   }
   .pic2 {
-    width: 39vw;
-    height: auto;
+    width: 184px;
   }
   #features__room-info--text {
     top: 110vw;
   }
-  .search {
-    top: 120vw !important;
-    left: 50% !important;
+  #features__school-event--text{
+    top: 167vw !important;
   }
-  #features__school-event--text {
-    top: 170vw;
+  .search {
+    top: 113vw !important;
+    left: 50% !important;
   }
 
   .users {
-    height: 256vw;
+    height: 240vw;
   }
   .announcement {
     top: 180vw !important;
