@@ -499,7 +499,10 @@ export default {
 
   .clubs-content,
   .guests--content {
-    top: 71vw;
+    top: 95vw;
+  }
+  .clubs-content{
+    left: 70% !important;
   }
   .footer--wrapp-inner {
     position: relative;
@@ -556,7 +559,7 @@ export default {
 
   .features {
     margin-top: 0;
-    height: 193vw;
+    height: 196vw;
   }
   .features__title--font p {
     font-size: 15px !important;
@@ -566,30 +569,47 @@ export default {
   }
   .pic1-bg {
     top: 0;
+    left: 50%;
+  }
+
+  .pic1 {
+    width: 45vw;
+    height: auto;
   }
   .info_2 {
     top: 50vw;
     width: 45%;
+    right: 5%;
   }
   .pic2-bg {
-    top: 56vw;
+    top: 47vw;
+    left: 2%;
+  }
+  .pic2{
+    width: 37vw;
+    height: auto;
   }
 
   #features__room-info--text {
     top: 90vw;
   }
-  .search{
-    top: 99vw !important;
+  .search {
+    top: 95vw !important;
+    left: 49% !important;
   }
-  #features__school-event--image {
-    top: 138vw !important ;
+  #features__school-event--text {
+    top: 140vw !important ;
   }
-  .announcement{
-    top: 147vw !important;
+  .announcement {
+    top: 154vw !important;
+    left: 5% !important;
   }
   /* .question__title--font, */
   .users__title--font {
     font-size: 15px !important;
+  }
+  .summary--bot{
+    width: 125%;
   }
   .footer__font-content {
     font-size: 8px !important;
@@ -650,6 +670,9 @@ export default {
 }
 
 @media (max-width: 525.98px) {
+  .features {
+    height: 233vw;
+  }
   .clubs-content,
   .guests--content {
     top: 82vw;
@@ -657,6 +680,51 @@ export default {
   .question__title--wrapper {
     width: 421px;
     /* height: 9vw; */
+  }
+  .pic1 {
+    width: 45vw;
+    height: auto;
+  }
+  .info_2 {
+    top: 60vw;
+    right: 4%;
+  }
+  .pic2-bg {
+    left: 2%;
+    top: 62vw;
+  }
+  .pic2 {
+    width: 39vw;
+    height: auto;
+  }
+  #features__room-info--text {
+    top: 110vw;
+  }
+  .search {
+    top: 120vw !important;
+    left: 50% !important;
+  }
+  #features__school-event--text {
+    top: 170vw;
+  }
+
+  .users {
+    height: 256vw;
+  }
+  .announcement {
+    top: 180vw !important;
+    left: 5% !important;
+  }
+  .clubs-content,
+  .guests--content {
+    top: 115vw;
+  }
+
+  .users h2 {
+    margin-left: -12px;
+  }
+  .user__Students--description-summa {
+    width: 110%;
   }
 }
 
@@ -785,7 +853,7 @@ export default {
 }
 
 @media (max-width: 412px) {
-  .question__title--wrapper{
+  .question__title--wrapper {
     width: 100%;
   }
   .question__title-line--left {
@@ -821,7 +889,7 @@ export default {
     margin: auto;
     width: 68%;
   }
-  .question__title--font{
+  .question__title--font {
     width: 100%;
     font-size: 33px !important;
   }

@@ -169,11 +169,11 @@
           class="users__contents--wrapper"
         >
           <h2>Khách tham quan</h2>
-          <p v-if="isShort3" class="users__students--description-summary">
+          <p v-if="isShort3" class="users__students--description-summary summary--bot">
             Không cần tốn thời gian vào việc hỏi đường và tra cứu bản đồ thủ
             công...
           </p>
-          <p v-if="!isShort3" class="users__students--description-summary">
+          <p v-if="!isShort3" class="users__students--description-summary summary--bot">
             Không cần tốn thời gian vào việc hỏi đường và tra cứu bản đồ thủ
             công. Bạn có thể sử dụng ứng dụng để khám phá khuôn viên đẹp và thơ
             mộng với diện tích hơn 24ha của trường.
@@ -213,11 +213,11 @@
           class="users__contents--wrapper"
         >
           <h2>CLB, đội nhóm, đơn vị tổ chức sự kiện</h2>
-          <p v-if="isShort4" class="users__students--description-summary">
+          <p v-if="isShort4" class="users__students--description-summary summary--bot">
             Các CLB, đội nhóm từ nay sẽ không phải đau đầu khi tổ chức sự kiện
             lớn tại Bách Khoa...
           </p>
-          <p v-if="!isShort4" class="users__students--description-summary">
+          <p v-if="!isShort4" class="users__students--description-summary summary--bot">
             Tính năng thông báo sự kiện của UniGo giúp các CLB, đội nhóm quảng
             bá event của mình. Người tham gia chủ động tra cứu nhanh thông tin
             phòng, giúp việc tổ chức diễn ra thuận lợi và suôn sẻ.
