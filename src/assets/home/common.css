@@ -1,0 +1,15 @@
+.btn--common {
+  color: #0b66bf;
+  font-weight: 700;
+
+  line-height: 22px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #0b66bf;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Nunito Sans";
+}
+.btn--common div{
+  font-size: 16px !important;
+}

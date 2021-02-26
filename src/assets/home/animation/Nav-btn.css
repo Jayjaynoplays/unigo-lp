@@ -1,0 +1,53 @@
+@keyframes zoom {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.3;
+  }
+  100% {
+    width: 1500px;
+    height: 1500px;
+    opacity: 0;
+  }
+}
+.btn--navbar--slide {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn--navbar--slide:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: -2;
+}
+.btn--navbar--slide:before {
+  content: "";
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #0b66bf;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.btn--navbar--slide:hover {
+  border: none;
+  color: white;
+}
+
+.btn--navbar--slide:hover:before {
+  width: 100%;
+}
+
+[ripple] .ripple--container .ripple--body {
+  opacity: 0.03 !important;
+  background-color: white !important;
+  -webkit-animation: rippler 100ms;
+  animation: rippler 100ms;
+}
