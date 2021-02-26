@@ -827,7 +827,7 @@ export default {
     font-size: 10px !important;
   } */
   .users {
-    height: 175vw;
+    height: 270vw;
   }
   .students {
     top: unset;
@@ -844,7 +844,19 @@ export default {
   }
   .clubs-content,
   .guests--content {
-    top: 115vw !important;
+    top: 135vw !important;
+  }
+  .freshman--content{
+    left: 53%;
+  }
+  .clubs-content{
+    left: 72% !important;
+  }
+  .summary--bot{
+    width: 130% !important;
+  }
+  .guests--content{
+    left: 25%;
   }
 
   .question__title-line--left,
@@ -861,7 +873,11 @@ export default {
   .question__item--wrapper,
   .question__item--wrapper2 {
     margin: auto;
-    width: 63%;
+    width: 70%;
+  }
+  .question__detail--wrapper,
+  .question__detail--wrapper2{
+    height: 10vw;
   }
   .question__detail--font,
   .question__detail--font2 {
