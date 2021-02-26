@@ -846,16 +846,16 @@ export default {
   .guests--content {
     top: 135vw !important;
   }
-  .freshman--content{
+  .freshman--content {
     left: 53%;
   }
-  .clubs-content{
+  .clubs-content {
     left: 72% !important;
   }
-  .summary--bot{
+  .summary--bot {
     width: 130% !important;
   }
-  .guests--content{
+  .guests--content {
     left: 25%;
   }
 
@@ -876,7 +876,7 @@ export default {
     width: 70%;
   }
   .question__detail--wrapper,
-  .question__detail--wrapper2{
+  .question__detail--wrapper2 {
     height: 10vw;
   }
   .question__detail--font,
@@ -905,12 +905,12 @@ export default {
     margin-left: 0;
     left: 40vw;
   }
-  .footer__contact-content--width{
+  .footer__contact-content--width {
     top: 42vw;
     justify-content: space-around;
     align-content: unset;
   }
-  .footer__contact-item--wrapper{
+  .footer__contact-item--wrapper {
     margin: 0;
   }
   ::-moz-placeholder {
@@ -934,7 +934,53 @@ export default {
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 411.98px) {
+  .features__title--description {
+    font-size: 18px;
+  }
+  .features {
+    margin-top: 70px;
+    height: 307vw;
+  }
+  .info_1 {
+    width: 55%;
+  }
+  .info_2 {
+    top: 84vw;
+    width: 55%;
+  }
+  .pic2-bg {
+    left: 0%;
+    top: 88vw;
+  }
+  #features__room-info--text {
+    top: 147vw;
+  }
+  .search {
+    top: 170vw !important;
+    left: 55% !important;
+  }
+  .announcement {
+    top: 245vw !important;
+    left: -3% !important;
+  }
+  #features__school-event--text {
+    top: 217vw !important;
+  }
+
+  .users {
+    height: 300vw;
+  }
+  .users h2 {
+    font-size: 20px;
+  }
+  .clubs-content {
+    left: 77% !important;
+  }
+  .users__title {
+    width: 45vw;
+  }
+
   .question__title--wrapper {
     width: 100%;
   }
@@ -944,9 +990,46 @@ export default {
   .question__title-line--right {
     display: none;
   }
+  .question__item--wrapper, .question__item--wrapper2{
+    width: 100%;
+  }
+  .question__detail--wrapper, .question__detail--wrapper2{
+    height: 15vw;
+  }
+  .question__detail--font, .question__detail--font2{
+    font-size: 16px !important
+  }
+
   /* * {
     font-size: 9px !important;
   } */
+  .footer--wrap{
+    height: 65vw;
+  }
+  .footer__logo{
+    width: 30vw;
+  }
+  .footer__form--wrapper{
+    left: 42vw;
+  }
+  .footer__contact-content--width{
+    top: 57vw;
+  }
+  .footer__form-subcribe--wrapper{
+    width: 49vw;
+    height: 6vw;
+  }
+  .footer__link-sections{
+    width: 38vw;
+  }
+  .phone{
+    font-size: 10px !important;
+  }
+  .footer--button{
+    right: 2vw;
+    width: 8vw;
+    height: 8vw;
+  }
 }
 
 @media (max-width: 364.98px) {

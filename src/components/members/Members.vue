@@ -97,6 +97,4 @@ export default {
     font-size: 32px !important;
   }
 }
-@media (max-width: 410.98px) {
-}
 </style>
