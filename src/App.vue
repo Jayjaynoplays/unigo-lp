@@ -492,9 +492,9 @@ export default {
 
 @media (max-width: 575.98px) {
   .features__title--wrapper {
-    width: 62vw;
+    width: 100%;
     height: 33vw;
-    margin-left: 10%;
+    margin-left: 1%;
   }
 
   .clubs-content,
@@ -548,13 +548,15 @@ export default {
     margin-right: 1vw;
   }
 
-  *,
+  /* *, */
   .features h3 {
-    font-size: 12px !important;
+    font-size: 20px !important;
+    line-height: unset;
   }
 
   .features {
     margin-top: 0;
+    height: 193vw;
   }
   .features__title--font p {
     font-size: 15px !important;
@@ -566,18 +568,24 @@ export default {
     top: 0;
   }
   .info_2 {
-    top: 40vw;
+    top: 50vw;
     width: 45%;
   }
   .pic2-bg {
-    top: 44vw;
+    top: 56vw;
   }
 
   #features__room-info--text {
-    top: 70vw;
+    top: 90vw;
   }
-  #features__room-info--image {
-    top: 70vw !important ;
+  .search{
+    top: 99vw !important;
+  }
+  #features__school-event--image {
+    top: 138vw !important ;
+  }
+  .announcement{
+    top: 147vw !important;
   }
   /* .question__title--font, */
   .users__title--font {
