@@ -203,6 +203,7 @@
           data-aos-duration="1500"
           class="users__img--shadow"
           style="position: relative; background-color: transparent"
+          id="clb--image-sm"
         >
           <img class="users__students--image" src="../assets/CLB-01.svg" />
           <div class="users__img--circle"></div>

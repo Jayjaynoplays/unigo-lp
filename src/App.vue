@@ -211,7 +211,7 @@ export default {
     border-radius: 6vw;
   }
   .announcement {
-    top: 85vw !important;
+    top: 82vw !important;
     left: 12% !important;
   }
   .search {
@@ -236,19 +236,26 @@ export default {
     background: transparent;
     margin-top: 50px;
     overflow-x: hidden;
-    height: 114vw;
+    height: 106vw;
   }
   .info_1 {
     left: 10%;
     width: 41vw;
-    top: 0;
+    top: 8vw;
   }
   .info_2 {
     right: 10%;
     width: 41vw;
+    top: 36vw;
   }
   .pic1-bg {
     top: 0;
+  }
+  .pic2-bg{
+    top: 30vw;
+  }
+  #features__school-event--text{
+    top: 83vw;
   }
   .features__title--wrapper {
     height: 22vw;
@@ -362,14 +369,18 @@ export default {
     height: 18px;
   }
   .features {
-    height: 156vw;
+    height: 148vw;
+  }
+  .features__title--wrapper {
+    width: 65vw;
+    /* height: 30vw; */
   }
   .info_1 {
     left: 4%;
-    top: 0;
+    top: 5vw;
   }
   .info_2 {
-    top: 40vw;
+    top: 38w;
   }
   .pic1-bg {
     top: 0;
@@ -381,18 +392,14 @@ export default {
     top: 75vw;
   }
   .search {
-    top: 77vw !important;
-  }
-  .features__title--wrapper {
-    width: 65vw;
-    /* height: 30vw; */
+    top: 73vw !important;
   }
 
   #features__school-event--text {
     top: 113vw;
   }
   .announcement {
-    top: 124vw !important;
+    top: 117vw !important;
   }
 
   /* *,
@@ -763,7 +770,7 @@ export default {
   }
   .features {
     margin-top: 30px;
-    height: 260vw;
+    height: 261vw;
   }
   .question__content--button2 {
     width: 15px;
@@ -960,7 +967,7 @@ export default {
     top: 147vw;
   }
   .search {
-    top: 170vw !important;
+    top: 155vw !important;
     left: 55% !important;
   }
   .announcement {
@@ -1042,10 +1049,13 @@ export default {
   .features {
     height: 308vw;
   }
-  .features__title--font h1{
+  .features__title--font h1 {
     font-size: 32px;
   }
-  .features__title--description{
+  .question__title--font {
+    font-size: 32px !important;
+  }
+  .features__title--description {
     margin-top: 10px;
   }
   .pic2-bg {
@@ -1054,12 +1064,11 @@ export default {
   .info_2 {
     top: 80vw;
   }
-  .search{
+  .search {
     left: 52% !important;
   }
 
-
-  .users{
+  .users {
     height: 325vw;
   }
   .users__title {
@@ -1073,7 +1082,7 @@ export default {
   .guests--content {
     top: 153vw !important;
   }
-  .guests--content{
+  .guests--content {
     left: 18%;
   }
 
@@ -1102,18 +1111,81 @@ export default {
     width: 100%;
     font-size: 33px !important;
   } */
-  .footer--wrap{
-    height: 66vw;
+  .footer--wrap {
+    height: 68vw;
   }
-  .phone{
+  .phone {
     width: 25vw;
   }
 }
 
 @media (max-width: 349.98px) {
+  .features {
+    margin-top: 90px;
+    height: 251vw;
+  }
+  .pic1-bg {
+    display: none;
+  }
+  .pic2-bg {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .announcement {
+    display: none;
+  }
+  .info_1,
+  .info_2 {
+    width: 100%;
+  }
+  .info_2 {
+    top: 57vw;
+  }
+  #features__room-info--text {
+    top: 114vw;
+  }
+  #features__school-event--text {
+    top: 181vw !important;
+  }
+
+  .users {
+    height: 333vw;
+  }
+  .users__title {
+    width: 60vw;
+  }
+  .users__students--description-summary {
+    font-size: 15px !important;
+  }
   .clubs-content,
   .guests--content {
-    top: 81vw;
+    top: 155vw !important;
+  }
+  .clubs-content {
+    left: 78% !important;
+  }
+  #clb--image-sm {
+    margin-left: 10px;
+  }
+
+  .question__detail--font,
+  .question__detail--font2 {
+    font-size: 14px !important;
+  }
+
+  .footer--wrap {
+    height: 69vw;
+  }
+  .footer__logo {
+    width: 33vw;
+  }
+  .footer__contact-content--width {
+    top: 60vw;
+  }
+  .phone {
+    font-size: 9px !important;
   }
 }
 </style>
