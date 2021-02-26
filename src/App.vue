@@ -753,6 +753,9 @@ export default {
 }
 
 @media (max-width: 449.98px) {
+  .feature__title-line--separator {
+    display: none;
+  }
   .question__content--button {
     width: 15px;
     height: 15px;
@@ -946,12 +949,12 @@ export default {
     width: 55%;
   }
   .info_2 {
-    top: 84vw;
+    top: 76vw;
     width: 55%;
   }
   .pic2-bg {
     left: 0%;
-    top: 88vw;
+    top: 76vw;
   }
   #features__room-info--text {
     top: 147vw;
@@ -965,7 +968,7 @@ export default {
     left: -3% !important;
   }
   #features__school-event--text {
-    top: 217vw !important;
+    top: 222vw !important;
   }
 
   .users {
@@ -990,42 +993,45 @@ export default {
   .question__title-line--right {
     display: none;
   }
-  .question__item--wrapper, .question__item--wrapper2{
+  .question__item--wrapper,
+  .question__item--wrapper2 {
     width: 100%;
   }
-  .question__detail--wrapper, .question__detail--wrapper2{
+  .question__detail--wrapper,
+  .question__detail--wrapper2 {
     height: 15vw;
   }
-  .question__detail--font, .question__detail--font2{
-    font-size: 16px !important
+  .question__detail--font,
+  .question__detail--font2 {
+    font-size: 16px !important;
   }
 
   /* * {
     font-size: 9px !important;
   } */
-  .footer--wrap{
+  .footer--wrap {
     height: 65vw;
   }
-  .footer__logo{
+  .footer__logo {
     width: 30vw;
   }
-  .footer__form--wrapper{
+  .footer__form--wrapper {
     left: 42vw;
   }
-  .footer__contact-content--width{
+  .footer__contact-content--width {
     top: 57vw;
   }
-  .footer__form-subcribe--wrapper{
+  .footer__form-subcribe--wrapper {
     width: 49vw;
     height: 6vw;
   }
-  .footer__link-sections{
+  .footer__link-sections {
     width: 38vw;
   }
-  .phone{
+  .phone {
     font-size: 10px !important;
   }
-  .footer--button{
+  .footer--button {
     right: 2vw;
     width: 8vw;
     height: 8vw;
@@ -1033,16 +1039,54 @@ export default {
 }
 
 @media (max-width: 364.98px) {
+  .features {
+    height: 308vw;
+  }
+  .features__title--font h1{
+    font-size: 32px;
+  }
+  .features__title--description{
+    margin-top: 10px;
+  }
+  .pic2-bg {
+    top: 82vw;
+  }
+  .info_2 {
+    top: 80vw;
+  }
+  .search{
+    left: 52% !important;
+  }
+
+
+  .users{
+    height: 325vw;
+  }
+  .users__title {
+    width: 50vw;
+    height: 15vw;
+  }
+  .users__students--wrapper {
+    top: 30vw;
+  }
+  .clubs-content,
+  .guests--content {
+    top: 153vw !important;
+  }
+  .guests--content{
+    left: 18%;
+  }
+
   .question__content--button,
   .question__content--button2 {
-    width: 12px;
-    height: 12px;
-    margin-right: 2vw;
+    width: 17px;
+    height: 17px;
+    margin-right: 1vw;
   }
   /* * {
     font-size: 8px !important;
   } */
-  .clubs-content,
+  /* .clubs-content,
   .guests--content {
     top: 73vw;
   }
@@ -1057,6 +1101,12 @@ export default {
   .question__title--font {
     width: 100%;
     font-size: 33px !important;
+  } */
+  .footer--wrap{
+    height: 66vw;
+  }
+  .phone{
+    width: 25vw;
   }
 }
 
