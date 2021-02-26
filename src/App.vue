@@ -727,9 +727,28 @@ export default {
 }
 
 @media (max-width: 469.98px) {
+  .features{
+    height: 240vw;
+  }
+  .users{
+    height: 236vw;
+  }
   .clubs-content,
   .guests--content {
-    top: 84vw;
+    top: 104vw;
+  }
+  .guests--content{
+    left: 30%;
+  }
+  .lecturers-width{
+    width: 25vw !important;
+  }
+  .users h2 {
+    font-size: 22px;
+  }
+  .users__students--description-summary{
+    font-size: 18px !important;
+    width: 108%;
   }
 }
 
