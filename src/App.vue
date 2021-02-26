@@ -501,7 +501,7 @@ export default {
   .guests--content {
     top: 95vw;
   }
-  .clubs-content{
+  .clubs-content {
     left: 70% !important;
   }
   .footer--wrapp-inner {
@@ -585,7 +585,7 @@ export default {
     top: 47vw;
     left: 2%;
   }
-  .pic2{
+  .pic2 {
     width: 37vw;
     height: auto;
   }
@@ -608,7 +608,7 @@ export default {
   .users__title--font {
     font-size: 15px !important;
   }
-  .summary--bot{
+  .summary--bot {
     width: 125%;
   }
   .footer__font-content {
@@ -678,7 +678,7 @@ export default {
   .guests--content {
     top: 116vw;
   }
-  .clubs-content{
+  .clubs-content {
     left: 68% !important;
   }
   .question__title--wrapper {
@@ -698,7 +698,7 @@ export default {
   #features__room-info--text {
     top: 110vw;
   }
-  #features__school-event--text{
+  #features__school-event--text {
     top: 167vw !important;
   }
   .search {
@@ -727,26 +727,26 @@ export default {
 }
 
 @media (max-width: 469.98px) {
-  .features{
+  .features {
     height: 240vw;
   }
-  .users{
+  .users {
     height: 236vw;
   }
   .clubs-content,
   .guests--content {
     top: 104vw;
   }
-  .guests--content{
+  .guests--content {
     left: 30%;
   }
-  .lecturers-width{
+  .lecturers-width {
     width: 25vw !important;
   }
   .users h2 {
     font-size: 22px;
   }
-  .users__students--description-summary{
+  .users__students--description-summary {
     font-size: 18px !important;
     width: 108%;
   }
@@ -758,54 +758,95 @@ export default {
     height: 15px;
     margin-right: 2vw;
   }
-  .info_1 {
-    width: 43vw;
+  .features {
+    margin-top: 30px;
+    height: 260vw;
   }
   .question__content--button2 {
     width: 15px;
     height: 15px;
     margin-right: 2vw;
   }
-  .features h3 {
+  /* .features h3 {
     font-size: 9px !important;
   }
   .features__title--description {
     font-size: 10px !important;
+  } */
+  .pic1-bg {
+    width: 50vw;
+    top: 5vw;
+    /* display: none; */
   }
   .pic2-bg {
-    left: 12%;
+    /* display: none; */
+    width: 50vw;
+    top: 67vw;
   }
-  * {
+  .search {
+    width: 50vw;
+    top: 130vw !important;
+    /* display: none; */
+  }
+  .announcement {
+    width: 50vw;
+    top: 206vw !important;
+    /* display: none; */
+  }
+  /* * {
     font-size: 10px !important;
-  }
+  } */
   .info_1 {
-    left: 9%;
+    left: 0%;
     top: 0;
+    width: 50%;
   }
   .info_2 {
-    right: 9%;
+    right: 0%;
+    width: 50%;
+    top: 65vw;
+  }
+  #features__room-info--text {
+    top: 119vw;
+  }
+  #features__school-event--text {
+    top: 182vw !important;
   }
   .footer__contact-item--icon {
     width: 8px;
     height: 8px;
   }
-  .features__title--font p {
+  /* .features__title--font p {
     font-size: 15px !important;
-  }
+  } */
   .users__title {
-    width: 34vw;
-    height: 8vw;
+    width: 40vw;
+    height: 12vw;
   }
-  .users__title--font {
+  /* .users__title--font {
     font-size: 10px !important;
-  }
-  .clubs-content,
-  .guests--content {
-    top: 78vw;
-  }
+  } */
   .users {
     height: 175vw;
   }
+  .students {
+    top: unset;
+  }
+  .freshman--content {
+    top: unset;
+  }
+  .lecturers--content {
+    top: unset;
+  }
+
+  .users__students--wrapper {
+    top: 23vw;
+  }
+  .clubs-content,
+  .guests--content {
+    top: 115vw !important;
+  }
+
   .question__title-line--left,
   .feature__title-line--separator {
     height: 1px;
@@ -824,16 +865,16 @@ export default {
   }
   .question__detail--font,
   .question__detail--font2 {
-    font-size: 9px !important;
+    /* font-size: 9px !important; */
     margin-left: 2vw;
   }
   .footer__font-title,
   .question__answer--detail,
   b {
-    font-size: 9px !important;
+    /* font-size: 9px !important; */
   }
   .footer__font-content {
-    font-size: 8px !important;
+    /* font-size: 8px !important; */
   }
   .footer__logo {
     width: 25vw;
@@ -848,14 +889,22 @@ export default {
     margin-left: 0;
     left: 40vw;
   }
+  .footer__contact-content--width{
+    top: 42vw;
+    justify-content: space-around;
+    align-content: unset;
+  }
+  .footer__contact-item--wrapper{
+    margin: 0;
+  }
   ::-moz-placeholder {
-    font-size: 8px !important;
+    /* font-size: 8px !important; */
   }
   :-ms-input-placeholder {
-    font-size: 8px !important;
+    /* font-size: 8px !important; */
   }
   ::placeholder {
-    font-size: 8px !important;
+    /* font-size: 8px !important; */
   }
   .form-font {
     width: 50vw;
@@ -879,9 +928,9 @@ export default {
   .question__title-line--right {
     display: none;
   }
-  * {
+  /* * {
     font-size: 9px !important;
-  }
+  } */
 }
 
 @media (max-width: 364.98px) {
@@ -891,9 +940,9 @@ export default {
     height: 12px;
     margin-right: 2vw;
   }
-  * {
+  /* * {
     font-size: 8px !important;
-  }
+  } */
   .clubs-content,
   .guests--content {
     top: 73vw;
