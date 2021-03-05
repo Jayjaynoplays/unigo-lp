@@ -45,7 +45,7 @@ a {
 .home--btn--wrapper {
   /* width: 100%; */
   margin-top: 100px;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 .btn--home {
@@ -59,7 +59,7 @@ a {
 #btn--try {
   color: white;
   background-color: #0b66bf;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 #btn--discover {
   margin-left: 25px;
