@@ -1,6 +1,10 @@
 <template>
   <div>
-    <button class="btn--common btn--navbar btn--navbar--slide" ripple="ripple">
+    <button
+      class="btn--common btn--navbar btn--navbar--slide"
+      ripple="ripple"
+      @click="showPanel"
+    >
       Thử Ngay <em class="fas fa-download" style="padding-left: 12px"></em>
     </button>
   </div>
@@ -9,14 +13,19 @@
 <script>
 export default {
   name: "Nav-btn",
+  methods: {
+    showPanel() {
+      setTimeout(() => {
+        this.$emit("show_panel");
+      },500);
+    },
+  },
 };
 </script>
 
 <style>
 @import url("../../../assets/home/common.css");
 @import url("../../../assets/home/animation/Nav-btn.css");
-
-
 
 .btn--navbar {
   height: 50px;

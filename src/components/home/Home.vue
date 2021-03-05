@@ -1,7 +1,7 @@
 <template>
   <section id="home">
     <div class="home--wrapper" style="position: relative">
-      <Navbar />
+      <Navbar @show_from_nav="show" />
       <div class="home--content--wrapper" style="padding-top: 90px">
         <div
           class="home--content"
@@ -24,7 +24,7 @@
             </p>
           </div>
 
-          <Homebtn />
+          <Homebtn @show_panel="show" />
         </div>
         <div
           class="home--image"
@@ -35,6 +35,9 @@
           <img src="../../assets/home/img/home_bg.svg" alt="" />
         </div>
       </div>
+      <modal name="popup-modal" :width="600" :height="600" :adaptive="true">
+        <Popup
+      /></modal>
     </div>
   </section>
 </template>
@@ -42,14 +45,27 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Homebtn from "./components/home-btn.vue";
-export default {
+import Popup from "./components/popup.vue";
+import Vue from 'vue';
+export default Vue.extend({
   name: "home",
   components: {
     Navbar,
     Homebtn,
+    Popup,
   },
-  methods: {},
-};
+  methods: {
+    show() {
+      this.$modal.show("popup-modal");
+    },
+    hide() {
+      this.$modal.hide("popup-modal");
+    },
+  },
+  mount() {
+    this.show();
+  },
+});
 </script>
 
 <style>

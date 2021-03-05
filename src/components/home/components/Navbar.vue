@@ -27,7 +27,7 @@
             >Thông tin liên hệ</b-nav-item
           >
           <b-nav-item href="#" class="my-auto">
-            <Navbtn />
+            <Navbtn @show_panel="show" />
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -41,6 +41,11 @@ export default {
   name: "Navbar",
   components: {
     Navbtn,
+  },
+  methods: {
+    show(){
+      this.$emit("show_from_nav")
+    }
   },
 };
 </script>
@@ -86,7 +91,7 @@ export default {
   width: 100%;
   background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1300;
+  z-index: 100;
   display: flex;
   align-items: center;
 }

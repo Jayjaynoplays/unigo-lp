@@ -5,13 +5,14 @@
         id="btn--try"
         class="btn--common btn--home btn--home--animation"
         ripple="ripple"
+        @click="showPanel"
       >
         <div>Thử ngay</div>
         <div><em class="fas fa-arrow-down fa-2x"></em></div>
       </button>
     </a>
 
-    <a href="#">
+    <a href="">
       <button
         id="btn--discover"
         class="btn--common btn--home btn--home--animation"
@@ -30,7 +31,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'homeButton',
+  methods: {
+    showPanel(){
+      this.$emit("show_panel")
+    }
+  },
+};
 </script>
 
 <style>
