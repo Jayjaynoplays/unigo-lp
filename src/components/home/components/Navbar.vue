@@ -6,7 +6,7 @@
       variant="dark"
       class="py-2 navbar--custom"
     >
-      <b-navbar-brand href="#" class="navbar--logo">
+      <b-navbar-brand href="#home" class="navbar--logo">
         <img src="../../../assets/logo-text.svg" alt="logo-text" />
       </b-navbar-brand>
 
@@ -17,11 +17,15 @@
 
       <b-collapse class="ml_450" id="nav-collapse" is-nav>
         <b-navbar-nav class="navbar--underline navbar--text">
-          <b-nav-item href="#" class="my-auto"> Trang chủ </b-nav-item>
-          <b-nav-item href="#" class="my-auto">Tính năng</b-nav-item>
-          <b-nav-item href="#" class="my-auto">Đối tượng sử dụng</b-nav-item>
-          <b-nav-item href="#" class="my-auto">Q&A</b-nav-item>
-          <b-nav-item href="#" class="my-auto">Thông tin liên hệ</b-nav-item>
+          <b-nav-item href="#home" class="my-auto"> Trang chủ </b-nav-item>
+          <b-nav-item href="#features" class="my-auto">Tính năng</b-nav-item>
+          <b-nav-item href="#user" class="my-auto"
+            >Đối tượng sử dụng</b-nav-item
+          >
+          <b-nav-item href="#questions" class="my-auto">Q&A</b-nav-item>
+          <b-nav-item href="#footer" class="my-auto"
+            >Thông tin liên hệ</b-nav-item
+          >
           <b-nav-item href="#" class="my-auto">
             <Navbtn />
           </b-nav-item>
