@@ -244,7 +244,7 @@ export default {
   padding: 12px;
 }
 .features__title--wrapper {
-  width: 30%;
+  width: 33%;
   height: 15vw;
   margin-left: 110px;
 }

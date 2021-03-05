@@ -32,7 +32,7 @@
         </li>
         <li data-target="#carousel" data-slide-to="4" class="department--name">
           <div>
-            <p>BA</p>
+            <p>BE</p>
             <p>Back-End</p>
           </div>
         </li>
