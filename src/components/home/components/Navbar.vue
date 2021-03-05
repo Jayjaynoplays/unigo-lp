@@ -78,7 +78,7 @@ export default {
 }
 
 .navbar--wrapper {
-  position: absolute;
+  position: fixed;
   width: 100%;
   background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
