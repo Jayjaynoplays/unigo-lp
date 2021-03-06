@@ -52,8 +52,10 @@ input:focus {
   text-align: center;
 }
 .popup {
-  width: 600px;
-  height: 600px;
+  /* width: 600px;
+  height: 600px; */
+  width: 100%;
+  height: 100%;
   background: linear-gradient(180deg, #eaf1ff 0%, #ffffff 100%);
   display: flex;
   /* justify-content: center; */
@@ -132,5 +134,75 @@ input:focus {
 .popup__bottom--text {
   font-size: 18px;
   margin-top: 60px;
+}
+@media (max-width: 1399.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .popup {
+    /* width: 90vw; */
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* .popup {
+    width: 80vw;
+  }
+  .popup__content--wrapper {
+    width: 90%;
+    padding-top: 60px;
+  } */
+  .popup__content--wrapper {
+    width: 90%;
+    /* padding-top: 60px; */
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .popup__logo {
+    width: 200px;
+    height: auto;
+  }
+  .popup__subcribes--wrapper {
+    padding-top: 40px;
+  }
+  .popup__subcribes--email {
+    width: 277px;
+    height: 48px;
+  }
+  .popup__bottom--text {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 410.98px) {
+  .popup__logo {
+    width: 150px;
+  }
+  .popup__content--wrapper {
+    padding-top: 30px;
+  }
+  .popup__content--text {
+    font-size: 15px;
+  }
+  .popup__subcribes--wrapper {
+    padding-top: 20px;
+  }
+  .popup__subcribes--email {
+    width: 230px;
+  }
+  .popup__bottom--text{
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 321px) {
 }
 </style>

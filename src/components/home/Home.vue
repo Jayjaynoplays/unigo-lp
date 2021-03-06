@@ -35,7 +35,13 @@
           <img src="../../assets/home/img/home_bg.svg" alt="" />
         </div>
       </div>
-      <modal name="popup-modal" :width="600" :height="600" :adaptive="true">
+      <modal
+        name="popup-modal"
+        :adaptive="true"
+        :height ="600"
+        :scrollable="true"
+        :resizable="true"
+      >
         <Popup
       /></modal>
     </div>
@@ -46,7 +52,7 @@
 import Navbar from "./components/Navbar.vue";
 import Homebtn from "./components/home-btn.vue";
 import Popup from "./components/popup.vue";
-import Vue from 'vue';
+import Vue from "vue";
 export default Vue.extend({
   name: "home",
   components: {
@@ -152,6 +158,13 @@ export default Vue.extend({
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /* .vm--modal{
+    width: 460px !important;
+  } */
+  .vm--modal {
+    width: 80vw !important;
+    left: 10% !important
+  }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -159,6 +172,10 @@ export default Vue.extend({
 }
 
 @media (max-width: 410.98px) {
+    .vm--modal {
+    height: 470px !important;
+    top: 20% !important;
+  }
 }
 
 @media (max-width: 321px) {
