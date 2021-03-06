@@ -177,7 +177,7 @@ export default Vue.extend({
     top: 20% !important;
   }
 }
-
+git a
 @media (max-width: 321px) {
 }
 </style>
