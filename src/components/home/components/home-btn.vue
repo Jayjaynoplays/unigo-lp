@@ -79,9 +79,9 @@ a {
   .home--btn--wrapper {
     margin-top: 50px;
   }
-  #btn--try {
+  /* #btn--try {
     margin-left: 50px;
-  }
+  } */
 }
 
 /* Large devices (desktops, less than 1200px) */
