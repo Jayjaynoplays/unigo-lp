@@ -111,6 +111,9 @@ a {
     height: 50px;
   } */
 
+  #btn--try  {
+    margin-left: 25px;
+  }
   #btn--discover {
     margin-left: 15px;
   }

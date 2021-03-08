@@ -116,7 +116,7 @@
               <img src="../../../assets/member/img/van.svg" alt="Tiến Văn" />
               <div
                 class="member--name"
-                style="margin-top: -5px; margin-left: -15px"
+                style="margin-top: -5px;"
               >
                 <p class="center-text">Nguyễn Tiến Văn</p>
                 <p
@@ -315,6 +315,9 @@ export default {
   }
   .ml-55 {
     margin-left: 10px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 

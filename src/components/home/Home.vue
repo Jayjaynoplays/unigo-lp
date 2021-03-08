@@ -192,8 +192,8 @@ export default Vue.extend({
     display: none !important;
   }
   .home--image {
-    width: 90vw;
-    margin-left: 2vw;
+    width: 70vw;
+    margin-left: 14vw;
   }
   .vm--modal {
     width: 80vw !important;
@@ -203,6 +203,13 @@ export default Vue.extend({
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .home--image {
+    width: 92vw;
+    margin-left: 1vw;
+  }
+  #btn--try {
+    margin-left: 7px;
+  }
 }
 
 @media (max-width: 410.98px) {
@@ -217,6 +224,9 @@ export default Vue.extend({
   .vm--modal {
     height: 470px !important;
     top: 20% !important;
+  }
+  #btn--try {
+    margin-left: 0px;
   }
 }
 @media (max-width: 321px) {
