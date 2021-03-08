@@ -24,7 +24,7 @@
             </p>
           </div>
 
-          <Homebtn @show_panel="show" />
+          <Homebtn @show_panel="show" id="home__btn--lgUP" />
         </div>
         <div
           class="home--image"
@@ -34,11 +34,18 @@
         >
           <img src="../../assets/home/img/home_bg.svg" alt="" />
         </div>
+        <Homebtn
+          @show_panel="show"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+          id="home__btn--lgDOWN"
+        />
       </div>
       <modal
         name="popup-modal"
         :adaptive="true"
-        :height ="600"
+        :height="600"
         :scrollable="true"
         :resizable="true"
       >
@@ -79,6 +86,9 @@ export default Vue.extend({
 
 #home {
   width: 100%;
+}
+#home__btn--lgDOWN {
+  display: none !important;
 }
 .home--content--wrapper {
   width: 100%;
@@ -148,22 +158,46 @@ export default Vue.extend({
     justify-content: center;
   }
   .home--image {
-    display: none;
+    margin-right: 0px;
+    width: 50vw;
   }
   .home--content {
-    width: 80%;
-    padding-left: 0;
+    width: 50vw;
+    padding: 55px 10px 0px 10px;
+  }
+  .home--content h1 {
+    font-size: 30px;
   }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* .vm--modal{
-    width: 460px !important;
-  } */
+  #home__btn--lgUP {
+    display: none !important;
+  }
+  #home__btn--lgDOWN {
+    display: flex !important;
+  }
+  .home--content--wrapper {
+    flex-direction: column;
+  }
+  .home--content {
+    width: 100%;
+    padding: 35px 10px 0px 10px;
+  }
+  .home--content h1 {
+    font-size: 35px;
+  }
+  .home--text {
+    display: none !important;
+  }
+  .home--image {
+    width: 90vw;
+    margin-left: 2vw;
+  }
   .vm--modal {
     width: 80vw !important;
-    left: 10% !important
+    left: 10% !important;
   }
 }
 
@@ -172,12 +206,19 @@ export default Vue.extend({
 }
 
 @media (max-width: 410.98px) {
-    .vm--modal {
+  /* .home--image {
+    width: 135px;
+    height: 146px;
+  }
+  .home--content h1 {
+    font-size: 15px;
+    line-height: 20px;
+  } */
+  .vm--modal {
     height: 470px !important;
     top: 20% !important;
   }
 }
-git a
 @media (max-width: 321px) {
 }
 </style>

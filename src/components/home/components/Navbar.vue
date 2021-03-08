@@ -91,7 +91,7 @@ export default {
   width: 100%;
   background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 100;
+  z-index: 1301;
   display: flex;
   align-items: center;
 }

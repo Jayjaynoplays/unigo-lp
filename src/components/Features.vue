@@ -16,14 +16,18 @@
             dụng dành cho điện thoại di động với các tính năng
           </div>
         </div>
-        <div class="features" >
+        <div class="features">
           <div
             data-aos="fade-right"
             data-aos-duration="2000"
             class="info_1 aos-init aos-animate"
           >
             <div class="info_1--title">
-              <img src="../assets/number 1.svg" class="info_1--img" alt="number 1" />
+              <img
+                src="../assets/number 1.svg"
+                class="info_1--img"
+                alt="number 1"
+              />
               <div style="margin-left: 1%; color: rgb(98, 98, 98)">
                 <h3>Tìm kiếm thông tin địa điểm</h3>
                 <p class="features__title--description">
@@ -145,7 +149,7 @@ export default {
 #features__school-event--text {
   top: 90vw;
 }
-#features__room-info--text{
+#features__room-info--text {
   top: 60vw;
 }
 .announcement {
@@ -254,7 +258,7 @@ export default {
   align-items: center;
 }
 .features__title--font h1 {
-  font-size: 35px ;
+  font-size: 35px;
   font-weight: 800;
   color: #0b66bf;
   margin: 0;

@@ -27,14 +27,10 @@
       <div class="carousel-item active">
         <div class="row">
           <div class="fl-cl">
-            <p class="department--name center-text" style="margin-left: 7px">
-              Project Manager
-            </p>
             <img src="../../../assets/member/img/dung.svg" alt="Mạnh Dũng" />
             <div class="member--name" style="margin-top: 4px">
-              <p class="center-text" style="margin-left: 15px">
-                Phạm Mạnh Dũng
-              </p>
+              <p class="center-text">Phạm Mạnh Dũng</p>
+              <p class="department--name center-text">Project Manager</p>
             </div>
           </div>
         </div>
@@ -43,23 +39,31 @@
       <div class="carousel-item">
         <div class="row">
           <div class="fl-cl">
-            <p class="department--name center-text" style="margin-left: 0px">
-              Business Analyst
-            </p>
-
             <div class="ml-55" :class="is411">
               <img src="../../../assets/member/img/mi.svg" alt="Duyên Trần" />
               <div class="member--name" id="duyen">
                 <p class="center-text">Trần Thị Thùy Duyên</p>
                 <p
                   class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  Business Analyst - Lead
+                </p>
+                <!-- <p
+                  class="department--name center-text"
                   style="margin-left: -15px; margin-top: -15px"
                 >
                   BA-Lead
-                </p>
+                </p> -->
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="carousel-item">
+        <div class="row">
+          <div class="fl-cl">
             <div class="ml-55" :class="is411">
               <img
                 src="../../../assets/member/img/linhhuong.svg"
@@ -69,9 +73,21 @@
                 <p class="center-text" style="margin-right: 20px">
                   Nguyễn Linh Hương
                 </p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  Business Analyst
+                </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="carousel-item">
+        <div class="row">
+          <div class="fl-cl">
             <div class="ml-55" :class="is411">
               <img
                 src="../../../assets/member/img/nguyen.svg"
@@ -81,6 +97,12 @@
                 <p class="center-text" style="margin-left: -20px">
                   Trần Đình Phúc Nguyên
                 </p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  Business Analyst
+                </p>
               </div>
             </div>
           </div>
@@ -90,10 +112,6 @@
       <div class="carousel-item">
         <div class="row">
           <div class="fl-cl">
-            <p class="department--name center-text" style="margin-left: -6px">
-              UI/Map
-            </p>
-
             <div class="ml-55">
               <img src="../../../assets/member/img/van.svg" alt="Tiến Văn" />
               <div
@@ -103,24 +121,10 @@
                 <p class="center-text">Nguyễn Tiến Văn</p>
                 <p
                   class="department--name center-text"
-                  style="margin-left: -6px; margin-top: -15px"
+                  style="margin-left: 0px"
                 >
                   Tech-Lead
                 </p>
-              </div>
-            </div>
-
-            <div class="ml-55">
-              <img src="../../../assets/member/img/hai.svg" alt="Hồng Hải" />
-              <div class="member--name" style="margin-top: -5px">
-                <p class="center-text">Lê Hồng Hải</p>
-              </div>
-            </div>
-
-            <div class="ml-55">
-              <img src="../../../assets/member/img/oanh.svg" alt="Kim Oanh" />
-              <div class="member--name" style="margin-top: -5px">
-                <p class="center-text">Đỗ Thị Kim Oanh</p>
               </div>
             </div>
           </div>
@@ -130,10 +134,44 @@
       <div class="carousel-item">
         <div class="row">
           <div class="fl-cl">
-            <p class="department--name center-text" style="margin-left: 0px">
-              Front-End
-            </p>
+            <div class="ml-55">
+              <img src="../../../assets/member/img/hai.svg" alt="Hồng Hải" />
+              <div class="member--name" style="margin-top: -5px">
+                <p class="center-text">Lê Hồng Hải</p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  UI/Map
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="carousel-item">
+        <div class="row">
+          <div class="fl-cl">
+            <div class="ml-55">
+              <img src="../../../assets/member/img/oanh.svg" alt="Kim Oanh" />
+              <div class="member--name" style="margin-top: -5px">
+                <p class="center-text">Đỗ Thị Kim Oanh</p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  UI/Map
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="fl-cl">
             <div class="ml-55">
               <img
                 src="../../../assets/member/img/lienhuong.svg"
@@ -144,9 +182,21 @@
                 style="margin-top: 4px; margin-left: -20px"
               >
                 <p class="center-text">Lê Liên Hương</p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  Front-End
+                </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="carousel-item">
+        <div class="row">
+          <div class="fl-cl">
             <div class="ml-55">
               <img
                 src="../../../assets/member/img/trumcuoi.svg"
@@ -154,6 +204,12 @@
               />
               <div class="member--name" style="margin-top: 4px">
                 <p class="center-text">Nguyễn Hữu Đức Huy</p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  Front-End
+                </p>
               </div>
             </div>
           </div>
@@ -163,9 +219,6 @@
       <div class="carousel-item">
         <div class="row">
           <div class="fl-cl">
-            <p class="department--name center-text" style="margin-left: -2px">
-              Back-End
-            </p>
             <div class="ml-55">
               <img src="../../../assets/member/img/ichhoa.svg" alt="Ích Hòa" />
               <div
@@ -173,6 +226,12 @@
                 style="margin-top: 4px; margin-left: -20px"
               >
                 <p class="center-text">Nguyễn ích Hòa</p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: -2px"
+                >
+                  Back-End
+                </p>
               </div>
             </div>
           </div>
@@ -182,9 +241,6 @@
       <div class="carousel-item">
         <div class="row">
           <div class="fl-cl">
-            <p class="department--name center-text" style="margin-left: 0px">
-              Mobile
-            </p>
             <div class="ml-55">
               <img src="../../../assets/member/img/duc.svg" alt="Nhân Đức" />
               <div
@@ -192,6 +248,12 @@
                 style="margin-top: 4px; margin-left: -20px"
               >
                 <p class="center-text">Lê Vĩnh Nhân Đức</p>
+                <p
+                  class="department--name center-text"
+                  style="margin-left: 0px"
+                >
+                  Mobile
+                </p>
               </div>
             </div>
           </div>
@@ -234,30 +296,25 @@ export default {
   #carousel__768 {
     display: unset;
   }
-
+  .container {
+    max-width: 100%;
+  }
   .carousel-inner {
-    height: 880px !important;
+    height: 310px !important;
     top: 40px;
-    width: 60% !important;
-    left: 20% !important;
+    width: 86% !important;
+    left: 7% !important;
   }
-  .carousel-control-prev {
-    top: 53px !important;
-  }
+  .carousel-control-prev,
   .carousel-control-next {
-    top: 53px !important;
+    top: 160px !important;
+    width: 3% !important;
   }
   .row img:not(:first-child) {
     padding-left: 35px !important;
   }
   .ml-55 {
-    margin-left: 40px !important;
-  }
-  .carousel-control-prev {
-    width: 3% !important;
-  }
-  .carousel-control-next {
-    width: 3% !important;
+    margin-left: 10px !important;
   }
 }
 
@@ -269,7 +326,19 @@ export default {
   .carousel-inner {
     width: 86% !important;
     left: 7% !important;
-    height: 920px !important;
+    height: 285px !important;
+  }
+  .fl-cl {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fl-cl img {
+    width: 90%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 140px !important;
   }
 }
 
@@ -277,11 +346,12 @@ export default {
   .ml-55 {
     margin-right: 5px !important;
   }
-  .carousel-inner {
-    height: 945px !important;
-  }
   #duyen p:first-child {
     margin-left: 0px !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 4vw !important;
   }
 }
 

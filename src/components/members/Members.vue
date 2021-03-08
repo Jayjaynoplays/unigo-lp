@@ -73,6 +73,9 @@ export default {
   }
 }
 @media (max-width: 767.98px) {
+  .members--wrapper {
+    height: 410px;
+  }
   #carousel {
     display: none !important;
   }

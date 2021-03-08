@@ -12,7 +12,7 @@
       </button>
     </a>
 
-    <a href="">
+    <a href="#features">
       <button
         id="btn--discover"
         class="btn--common btn--home btn--home--animation"
@@ -32,11 +32,11 @@
 
 <script>
 export default {
-  name: 'homeButton',
+  name: "homeButton",
   methods: {
-    showPanel(){
-      this.$emit("show_panel")
-    }
+    showPanel() {
+      this.$emit("show_panel");
+    },
   },
 };
 </script>
@@ -106,6 +106,14 @@ a {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /* .btn--home {
+    width: 130px;
+    height: 50px;
+  } */
+
+  #btn--discover {
+    margin-left: 15px;
+  }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -114,15 +122,15 @@ a {
 
 @media (max-width: 410.98px) {
   .home--btn--wrapper {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .home--btn--wrapper a {
     display: flex;
     justify-content: center;
   }
-  #btn--discover {
-    margin-left: 0px;
-    margin-top: 20px;
+  .btn--home {
+    width: 145px;
+    height: 55px;
   }
 }
 

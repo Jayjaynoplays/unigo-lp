@@ -246,7 +246,7 @@ export default {
 }
 
 .question__item--wrapper {
-  width: 37%;
+  width: 43%;
   padding: 1vw;
   font-size: 20px;
 }

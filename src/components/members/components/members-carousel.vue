@@ -357,6 +357,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .carousel-inner {
     height: 868px;

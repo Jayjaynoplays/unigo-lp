@@ -17,7 +17,6 @@ import Members from "./components/members/Members.vue";
 import Questions from "./components/Questions.vue";
 import Footer from "./components/Footer.vue";
 
-
 export default {
   name: "App",
   components: {
@@ -237,7 +236,7 @@ export default {
     background: transparent;
     margin-top: 50px;
     overflow-x: hidden;
-    height: 106vw;
+    height: 107vw;
   }
   .info_1 {
     left: 10%;
@@ -252,10 +251,10 @@ export default {
   .pic1-bg {
     top: 0;
   }
-  .pic2-bg{
+  .pic2-bg {
     top: 30vw;
   }
-  #features__school-event--text{
+  #features__school-event--text {
     top: 83vw;
   }
   .features__title--wrapper {
@@ -344,14 +343,18 @@ export default {
   .question__item--wrapper2 {
     padding: 2vw;
   }
+  .footer__form--wrapper {
+    margin-left: 4vw;
+  }
   .footer__form-subcribe--wrapper {
-    width: 27vw;
+    width: 30vw;
+    height: 4vw;
   }
   .footer__form--button {
     width: 40%;
   }
   .footer--wrap {
-    height: 28vw;
+    height: 33vw;
   }
   .footer__logo {
     top: -8%;
@@ -370,7 +373,10 @@ export default {
     height: 18px;
   }
   .features {
-    height: 148vw;
+    height: 175vw;
+  }
+  .features h3 {
+    line-height: 5vw;
   }
   .features__title--wrapper {
     width: 65vw;
@@ -380,27 +386,36 @@ export default {
     left: 4%;
     top: 5vw;
   }
+  .info_1--img {
+    width: 12%;
+    margin-top: 5px;
+  }
   .info_2 {
-    top: 38w;
+    top: 50vw;
+    right: 4%;
+  }
+  .info_2--img {
+    width: 12%;
+    margin-top: 5px;
   }
   .pic1-bg {
     top: 0;
   }
   .pic2-bg {
-    top: 42vw;
+    top: 50vw;
   }
   #features__room-info--text {
-    top: 75vw;
+    top: 87vw;
   }
   .search {
-    top: 73vw !important;
+    top: 90vw !important;
   }
 
   #features__school-event--text {
-    top: 113vw;
+    top: 127vw;
   }
   .announcement {
-    top: 117vw !important;
+    top: 134vw !important;
   }
 
   /* *,
@@ -480,14 +495,20 @@ export default {
   .question__detail--font2 {
     font-size: 15px !important;
   }
+  .footer--wrap {
+    height: 36vw;
+  }
   .footer__form--input {
     font-size: 12px !important;
   }
   b {
     font-size: 15px !important;
   }
+  .footer__form--wrapper {
+    margin-left: 3vw;
+  }
   .footer__form-subcribe--wrapper {
-    width: 29vw;
+    width: 30vw;
   }
   .button-up {
     top: 92%;
@@ -532,7 +553,7 @@ export default {
   }
   .footer__form-subcribe--wrapper {
     width: 38vw;
-    height: 5vw;
+    height: 6vw;
     margin-top: 2vw;
   }
   .footer__form--wrapper {
@@ -679,7 +700,7 @@ export default {
 
 @media (max-width: 525.98px) {
   .features {
-    height: 230vw;
+    height: 236vw;
     margin-top: 15px;
   }
   .clubs-content,
@@ -943,6 +964,10 @@ export default {
   .features__title--font {
     height: 32%;
   }
+  .footer__form-subcribe--wrapper {
+    width: 45vw;
+    height: 6vw;
+  }
 }
 
 @media (max-width: 411.98px) {
@@ -951,7 +976,7 @@ export default {
   }
   .features {
     margin-top: 70px;
-    height: 307vw;
+    height: 303vw;
   }
   .info_1 {
     width: 55%;
@@ -1048,7 +1073,7 @@ export default {
 
 @media (max-width: 364.98px) {
   .features {
-    height: 308vw;
+    height: 315vw;
   }
   .features__title--font h1 {
     font-size: 32px;
@@ -1070,7 +1095,7 @@ export default {
   }
 
   .users {
-    height: 325vw;
+    height: 320vw;
   }
   .users__title {
     width: 50vw;
@@ -1187,6 +1212,9 @@ export default {
   }
   .phone {
     font-size: 9px !important;
+  }
+  .footer__form-subcribe--wrapper{
+    width: 54vw;
   }
 }
 </style>
