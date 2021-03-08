@@ -927,7 +927,7 @@ export default {
   }
 
   .users {
-    height: 300vw;
+    height: 1075px;
   }
   .users h2 {
     font-size: 20px;
