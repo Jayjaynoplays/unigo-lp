@@ -49,12 +49,6 @@
                 >
                   Business Analyst - Lead
                 </p>
-                <!-- <p
-                  class="department--name center-text"
-                  style="margin-left: -15px; margin-top: -15px"
-                >
-                  BA-Lead
-                </p> -->
               </div>
             </div>
           </div>

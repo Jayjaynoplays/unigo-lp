@@ -206,8 +206,6 @@ export default {
 
 .question__title--wrapper {
   display: flex;
-  /* height: 3vw; */
-  /* width: 33vw; */
   width: 36vw;
   margin: auto;
   justify-content: center;

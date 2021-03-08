@@ -40,7 +40,6 @@ export default {
   letter-spacing: 0em;
   text-align: left;
   color: #0b66bf;
-  /* margin-left: 225px; */
   display: flex;
   align-items: center;
 }
@@ -60,9 +59,6 @@ export default {
   .users {
     height: 58vw;
   }
-  /* * {
-    font-size: 18px !important;
-  } */
   .features__title--wrapper {
     width: 40%;
   }
@@ -78,9 +74,6 @@ export default {
   .users__title--font {
     font-size: 22px !important;
   }
-  /* .question__title--font {
-    font-size: 29px !important;
-  } */
   .features h3 {
     font-size: 20px !important;
   }
@@ -113,9 +106,6 @@ export default {
 }
 
 @media (max-width: 1199.98px) {
-  /* * {
-    font-size: 17px !important;
-  } */
   .features {
     margin-top: 50px;
   }
@@ -127,9 +117,6 @@ export default {
     margin-left: 13px;
     width: 46%;
   }
-  /* .features__title--font {
-    font-size: 25px !important;
-  } */
   .users {
     height: 65vw;
   }
@@ -142,10 +129,6 @@ export default {
   .question__title--font {
     width: 33vw;
   }
-  /* .features__title--font p,
-  .question__title--font {
-    font-size: 25px !important;
-  } */
   .features__title--font p {
     font-size: 25px !important;
   }
@@ -199,9 +182,6 @@ export default {
   .users__students--image {
     background-color: transparent;
   }
-  /* * {
-    font-size: 17px !important;
-  } */
   .users h2 {
     text-align: center;
   }
@@ -307,7 +287,6 @@ export default {
     top: 80vw;
   }
   .question__title--font {
-    /* font-size: 25px !important; */
     width: 330px;
   }
   #questions {
@@ -315,7 +294,6 @@ export default {
   }
   .question__title--wrapper {
     width: 470px;
-    /* height: 5vw; */
   }
   .question__answer--detail,
   .question__detail--font,
@@ -380,7 +358,6 @@ export default {
   }
   .features__title--wrapper {
     width: 65vw;
-    /* height: 30vw; */
   }
   .info_1 {
     left: 4%;
@@ -417,11 +394,6 @@ export default {
   .announcement {
     top: 134vw !important;
   }
-
-  /* *,
-  .features h3 {
-    font-size: 15px !important;
-  } */
   .features__title--font p,
   .users__title--font {
     font-size: 20px !important;
@@ -451,13 +423,8 @@ export default {
   .lecturers--content {
     left: 85vw;
   }
-
-  /* .question__title--font {
-    font-size: 20px !important;
-  } */
   .question__title--wrapper {
     width: 75vw;
-    /* height: 7vw; */
   }
   .question__content--wrapper {
     display: block;
@@ -525,7 +492,6 @@ export default {
     height: 33vw;
     margin-left: 1%;
   }
-
   .clubs-content,
   .guests--content {
     top: 95vw;
@@ -579,8 +545,6 @@ export default {
   .footer__contact-item--icon {
     margin-right: 1vw;
   }
-
-  /* *, */
   .features h3 {
     font-size: 20px !important;
     line-height: unset;
@@ -633,7 +597,6 @@ export default {
     top: 154vw !important;
     left: 5% !important;
   }
-  /* .question__title--font, */
   .users__title--font {
     font-size: 15px !important;
   }
@@ -712,7 +675,6 @@ export default {
   }
   .question__title--wrapper {
     width: 421px;
-    /* height: 9vw; */
   }
   .info_2 {
     top: 60vw;
@@ -799,35 +761,22 @@ export default {
     height: 15px;
     margin-right: 2vw;
   }
-  /* .features h3 {
-    font-size: 9px !important;
-  }
-  .features__title--description {
-    font-size: 10px !important;
-  } */
   .pic1-bg {
     width: 50vw;
     top: 5vw;
-    /* display: none; */
   }
   .pic2-bg {
-    /* display: none; */
     width: 50vw;
     top: 67vw;
   }
   .search {
     width: 50vw;
     top: 130vw !important;
-    /* display: none; */
   }
   .announcement {
     width: 50vw;
     top: 206vw !important;
-    /* display: none; */
   }
-  /* * {
-    font-size: 10px !important;
-  } */
   .info_1 {
     left: 0%;
     top: 0;
@@ -848,16 +797,10 @@ export default {
     width: 8px;
     height: 8px;
   }
-  /* .features__title--font p {
-    font-size: 15px !important;
-  } */
   .users__title {
     width: 40vw;
     height: 12vw;
   }
-  /* .users__title--font {
-    font-size: 10px !important;
-  } */
   .users {
     height: 270vw;
   }
@@ -895,9 +838,6 @@ export default {
   .feature__title-line--separator {
     height: 1px;
   }
-  /* .question__title--font {
-    font-size: 15px !important;
-  } */
   .question__title--wrapper {
     width: 393px;
     height: 11vw;
@@ -913,16 +853,7 @@ export default {
   }
   .question__detail--font,
   .question__detail--font2 {
-    /* font-size: 9px !important; */
     margin-left: 2vw;
-  }
-  .footer__font-title,
-  .question__answer--detail,
-  b {
-    /* font-size: 9px !important; */
-  }
-  .footer__font-content {
-    /* font-size: 8px !important; */
   }
   .footer__logo {
     width: 25vw;
@@ -944,15 +875,6 @@ export default {
   }
   .footer__contact-item--wrapper {
     margin: 0;
-  }
-  ::-moz-placeholder {
-    /* font-size: 8px !important; */
-  }
-  :-ms-input-placeholder {
-    /* font-size: 8px !important; */
-  }
-  ::placeholder {
-    /* font-size: 8px !important; */
   }
   .form-font {
     width: 50vw;
@@ -1038,10 +960,6 @@ export default {
   .question__detail--font2 {
     font-size: 16px !important;
   }
-
-  /* * {
-    font-size: 9px !important;
-  } */
   .footer--wrap {
     height: 65vw;
   }
@@ -1118,25 +1036,6 @@ export default {
     height: 17px;
     margin-right: 1vw;
   }
-  /* * {
-    font-size: 8px !important;
-  } */
-  /* .clubs-content,
-  .guests--content {
-    top: 73vw;
-  }
-  .footer__contact-content--width {
-    top: 38vw;
-  }
-  .question__item--wrapper,
-  .question__item--wrapper2 {
-    margin: auto;
-    width: 68%;
-  }
-  .question__title--font {
-    width: 100%;
-    font-size: 33px !important;
-  } */
   .footer--wrap {
     height: 68vw;
   }

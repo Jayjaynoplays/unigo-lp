@@ -213,14 +213,6 @@ export default Vue.extend({
 }
 
 @media (max-width: 410.98px) {
-  /* .home--image {
-    width: 135px;
-    height: 146px;
-  }
-  .home--content h1 {
-    font-size: 15px;
-    line-height: 20px;
-  } */
   .vm--modal {
     height: 470px !important;
     top: 20% !important;

@@ -62,13 +62,10 @@ input:focus {
   text-align: center;
 }
 .popup {
-  /* width: 600px;
-  height: 600px; */
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, #eaf1ff 0%, #ffffff 100%);
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
@@ -150,9 +147,6 @@ input:focus {
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-  .popup {
-    /* width: 90vw; */
-  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -161,16 +155,8 @@ input:focus {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* .popup {
-    width: 80vw;
-  }
   .popup__content--wrapper {
     width: 90%;
-    padding-top: 60px;
-  } */
-  .popup__content--wrapper {
-    width: 90%;
-    /* padding-top: 60px; */
   }
 }
 

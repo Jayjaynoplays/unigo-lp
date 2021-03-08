@@ -6,10 +6,6 @@
           <div class="features__title--font">
             <h1>uniGO đem lại gì?</h1>
             <div class="feature__title-line--separator"></div>
-            <!-- <div
-              class="question__title-line--right"
-              style="margin-left: 2%"
-            ></div> -->
           </div>
           <div class="features__title--description">
             Giải pháp thông minh được phát triển trên nền tảng website và ứng
@@ -273,7 +269,6 @@ export default {
   margin-left: 15px;
   width: 10vw;
   height: 4px;
-  /* margin: auto; */
   background-image: linear-gradient(
     90deg,
     #4285f4 -19.99%,

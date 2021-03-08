@@ -51,9 +51,7 @@ a {
 }
 
 .home--btn--wrapper {
-  /* width: 100%; */
   margin-top: 100px;
-  /* margin-left: 10%; */
 }
 
 .btn--home {
@@ -67,7 +65,6 @@ a {
 #btn--try {
   color: white;
   background-color: #0b66bf;
-  /* margin-left: 50px; */
 }
 #btn--discover {
   margin-left: 25px;
@@ -79,9 +76,6 @@ a {
   .home--btn--wrapper {
     margin-top: 50px;
   }
-  /* #btn--try {
-    margin-left: 50px;
-  } */
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -106,11 +100,6 @@ a {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* .btn--home {
-    width: 130px;
-    height: 50px;
-  } */
-
   #btn--try  {
     margin-left: 25px;
   }
@@ -124,9 +113,6 @@ a {
 }
 
 @media (max-width: 410.98px) {
-  .home--btn--wrapper {
-    /* flex-direction: column; */
-  }
   .home--btn--wrapper a {
     display: flex;
     justify-content: center;
