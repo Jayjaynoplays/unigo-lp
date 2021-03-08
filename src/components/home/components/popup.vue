@@ -19,7 +19,7 @@
         @keyup.enter="submitEmail"
       />
       <a href="" class="popup__subcribes--button">
-        <button @click="submitEmail" ripple="ripple" >Đăng ký</button>
+        <button @click="submitEmail" ripple="ripple">Đăng ký</button>
       </a>
       <div class="popup__bottom--wrapper">
         <p class="text-common popup__bottom--text">
@@ -39,16 +39,18 @@ export default {
     };
   },
   methods: {
-    submitEmail(){
-      alert('Email Submitted');
-    }
+    submitEmail() {
+      alert("Email Submitted");
+    },
   },
 };
 </script>
 <style scoped>
 @import url("../../../assets/home/animation/Nav-btn.css");
 
-button :focus{
+
+
+button :focus {
   outline: none !important;
 }
 
@@ -194,7 +196,7 @@ input:focus {
   .popup__subcribes--email {
     width: 230px;
   }
-  .popup__bottom--text{
+  .popup__bottom--text {
     margin-top: 45px;
   }
 }

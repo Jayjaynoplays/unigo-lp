@@ -90,6 +90,9 @@ export default Vue.extend({
 #home__btn--lgDOWN {
   display: none !important;
 }
+.vm--container {
+  z-index: 99999 !important;
+}
 .home--content--wrapper {
   width: 100%;
   background: linear-gradient(180deg, #d2def5 0%, rgba(233, 240, 255, 0) 100%);

@@ -933,7 +933,7 @@ export default {
     font-size: 20px;
   }
   .clubs-content {
-    left: 77% !important;
+    left: 78% !important;
   }
   .users__title {
     width: 45vw;
