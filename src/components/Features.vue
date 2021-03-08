@@ -107,7 +107,7 @@
               <div style="margin-left: 1%; color: rgb(98, 98, 98)">
                 <h3>Thông báo sự kiện của trường</h3>
                 <p class="features__title--description">
-                  Kết nối đoàn trường và CLB đến gần sinh viên, Unigo thông báo
+                  Kết nối đoàn trường và CLB đến gần sinh viên, uniGO thông báo
                   thời gian địa điểm diễn ra, chia sẻ thông tin sự kiện đến các
                   bạn có nhu cầu tham gia.
                 </p>

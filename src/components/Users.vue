@@ -219,7 +219,7 @@
             lớn tại Bách Khoa...
           </p>
           <p v-if="!isShort4" class="users__students--description-summary summary--bot">
-            Tính năng thông báo sự kiện của UniGo giúp các CLB, đội nhóm quảng
+            Tính năng thông báo sự kiện của uniGO giúp các CLB, đội nhóm quảng
             bá event của mình. Người tham gia chủ động tra cứu nhanh thông tin
             phòng, giúp việc tổ chức diễn ra thuận lợi và suôn sẻ.
           </p>
