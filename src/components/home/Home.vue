@@ -86,6 +86,7 @@ export default Vue.extend({
 
 #home {
   width: 100%;
+  height: 100vh;
 }
 #home__btn--lgDOWN {
   display: none !important;
