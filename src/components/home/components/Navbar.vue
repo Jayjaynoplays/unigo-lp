@@ -17,15 +17,11 @@
 
       <b-collapse class="ml_450" id="nav-collapse" is-nav>
         <b-navbar-nav class="navbar--underline navbar--text">
-          <b-nav-item href="#home" class="my-auto"> Trang chủ </b-nav-item>
-          <b-nav-item href="#features" class="my-auto">Tính năng</b-nav-item>
-          <b-nav-item href="#user" class="my-auto"
-            >Đối tượng sử dụng</b-nav-item
-          >
+          <b-nav-item href="#home" class="my-auto">Home</b-nav-item>
+          <b-nav-item href="#features" class="my-auto">Features</b-nav-item>
+          <b-nav-item href="#user" class="my-auto">Targeted Users</b-nav-item>
           <b-nav-item href="#questions" class="my-auto">Q&A</b-nav-item>
-          <b-nav-item href="#footer" class="my-auto"
-            >Thông tin liên hệ</b-nav-item
-          >
+          <b-nav-item href="#footer" class="my-auto">Contacts</b-nav-item>
           <b-nav-item href="#" class="my-auto">
             <Navbtn @show_panel="show" />
           </b-nav-item>
@@ -43,9 +39,9 @@ export default {
     Navbtn,
   },
   methods: {
-    show(){
-      this.$emit("show_from_nav")
-    }
+    show() {
+      this.$emit("show_from_nav");
+    },
   },
 };
 </script>

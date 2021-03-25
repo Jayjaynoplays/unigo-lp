@@ -14,7 +14,7 @@
           >
             <div class="question__detail">
               <p :class="isAnswer0 ? font2 : font">
-                Mục đích ra đời của uniGO là gì?
+                What is the purpose of uniGO?
               </p>
               <div :class="isAnswer0 ? button2 : button">
                 <i class="fas fa-plus" :class="isAnswer0 ? icon2 : icon"></i>
@@ -38,7 +38,7 @@
             @click="changeStatus1"
           >
             <div class="question__detail">
-              <p :class="isAnswer1 ? font2 : font">DSC - DUT là gì?</p>
+              <p :class="isAnswer1 ? font2 : font">What is DSC-DUT?</p>
               <div :class="isAnswer1 ? button2 : button">
                 <i class="fas fa-plus" :class="isAnswer1 ? icon2 : icon"></i>
               </div>
@@ -67,7 +67,7 @@
           >
             <div class="question__detail">
               <p :class="isAnswer2 ? font2 : font">
-                Sản phẩm có mất phí sử dụng không?
+                Do I need to pay to install uniGO?
               </p>
               <div :class="isAnswer2 ? button2 : button">
                 <i class="fas fa-plus" :class="isAnswer2 ? icon2 : icon"></i>
@@ -92,7 +92,7 @@
           >
             <div class="question__detail">
               <p :class="isAnswer3 ? font2 : font">
-                Ứng dụng có cần sử dụng Internet không?
+                Does this app require Internet connection?
               </p>
               <div :class="isAnswer3 ? button2 : button">
                 <i class="fas fa-plus" :class="isAnswer3 ? icon2 : icon"></i>

@@ -4,12 +4,12 @@
       <div class="features--content">
         <div class="features__title--wrapper">
           <div class="features__title--font">
-            <h1>uniGO đem lại gì?</h1>
+            <h1>What does uniGO offer?</h1>
             <div class="feature__title-line--separator"></div>
           </div>
           <div class="features__title--description">
-            Giải pháp thông minh được phát triển trên nền tảng website và ứng
-            dụng dành cho điện thoại di động với các tính năng
+            Being a smart solution developed on website and mobile app, uniGO
+            offers the following features:
           </div>
         </div>
         <div class="features">
@@ -25,10 +25,10 @@
                 alt="number 1"
               />
               <div style="margin-left: 1%; color: rgb(98, 98, 98)">
-                <h3>Tìm kiếm thông tin địa điểm</h3>
+                <h3>Location Information</h3>
                 <p class="features__title--description">
-                  Cho phép tìm kiếm và tra cứu thông tin các địa điểm trong nhà
-                  trường, xác định vị trí hiện tại bằng QR hoặc GPS...
+                  Allowing users to look up details about locations in the
+                  University and locate current position using QR code or GPS…
                 </p>
               </div>
             </div>
@@ -55,10 +55,10 @@
             <div class="info_2--title">
               <img src="../assets/number 2.svg" class="info_2--img" />
               <div style="margin-left: 1%; color: rgb(98, 98, 98)">
-                <h3>Tìm đường đi</h3>
+                <h3>Route Planning</h3>
                 <p class="features__title--description">
-                  Tính năng chỉ dẫn đường dễ dàng cho bạn chọn tuyến đường ngắn
-                  nhất đến địa điểm mà bạn muốn.
+                  Directions Feature helps identify the shortest path to your
+                  destinations.
                 </p>
               </div>
             </div>
@@ -73,10 +73,11 @@
             <div class="info_1--title" id="features__room-info--text">
               <img src="../assets/number 3 1.svg" class="info_1--img" />
               <div style="margin-left: 1%; color: rgb(98, 98, 98)">
-                <h3>Tra cứu thông tin phòng học</h3>
+                <h3>Classroom Information</h3>
                 <p class="features__title--description">
-                  uniGO giúp bạn tra cứu thông tin phòng học, giảng viên và lớp
-                  học phần vào một thời điểm xác định.
+                  By installing uniGO, users will be able to search for
+                  information on classrooms, lecturers and credit classes at a
+                  specific time.
                 </p>
               </div>
             </div>
@@ -105,11 +106,10 @@
             <div class="info_2--title">
               <img src="../assets/number 4.svg" class="info_2--img" />
               <div style="margin-left: 1%; color: rgb(98, 98, 98)">
-                <h3>Thông báo sự kiện của trường</h3>
+                <h3>Events Notifying</h3>
                 <p class="features__title--description">
-                  Kết nối đoàn trường và CLB đến gần sinh viên, uniGO thông báo
-                  thời gian địa điểm diễn ra, chia sẻ thông tin sự kiện đến các
-                  bạn có nhu cầu tham gia.
+                  uniGO keeps undergraduates informed about events hosted by the
+                  University, Clubs and Organizations.
                 </p>
               </div>
             </div>
@@ -244,7 +244,7 @@ export default {
   padding: 12px;
 }
 .features__title--wrapper {
-  width: 33%;
+  width: 40%;
   height: 15vw;
   margin-left: 110px;
 }
@@ -266,7 +266,7 @@ export default {
 }
 .feature__title-line--separator {
   margin-top: 8px;
-  margin-left: 15px;
+  margin-left: 20px;
   width: 10vw;
   height: 4px;
   background-image: linear-gradient(

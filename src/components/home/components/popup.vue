@@ -5,8 +5,8 @@
     </div>
     <div class="popup__content--wrapper">
       <p class="text-common popup__content--text">
-        Ứng dụng uniGO đang trong quá trình phát triển. Bạn hãy để lại Gmail để
-        nhận thông báo về ứng dụng sớm nhất nhé.
+        uniGO is in development. Leave your email below to get latest news about
+        our product. Subcribe
       </p>
     </div>
     <div class="popup__subcribes--wrapper">
@@ -19,7 +19,7 @@
         @keyup.enter="submitEmail"
       />
       <a href="" class="popup__subcribes--button">
-        <button @click="submitEmail" ripple="ripple">Đăng ký</button>
+        <button @click="submitEmail" ripple="ripple">Subcribe</button>
       </a>
       <div class="popup__bottom--wrapper">
         <p class="text-common popup__bottom--text">
@@ -47,8 +47,6 @@ export default {
 </script>
 <style scoped>
 @import url("../../../assets/home/animation/Nav-btn.css");
-
-
 
 button :focus {
   outline: none !important;

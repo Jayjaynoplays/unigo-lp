@@ -2,7 +2,7 @@
   <section id="user">
     <div class="users">
       <div class="users__title">
-        <div class="users__title--font">Đối tượng sử dụng</div>
+        <div class="users__title--font">Targeted Users</div>
       </div>
 
       <!-- Students -->
@@ -31,20 +31,20 @@
           data-aos-duration="1500"
           class="users__contents--wrapper"
         >
-          <h2>Sinh viên</h2>
+          <h2>Undergraduates</h2>
           <p v-if="isShort0" class="users__students--description-summary">
-            Ứng dụng hỗ trợ tra cứu tiện lợi, giúp các bạn nắm rõ thông tin...
+            With uniGO, undergraduates can search for classroom information...
           </p>
           <p v-if="!isShort0" class="users__students--description-summary">
-            Ứng dụng hỗ trợ tra cứu tiện lợi, giúp các bạn nắm rõ thông tin
-            phòng học và nhận được thông báo cá nhân về lớp học phần.
+            With uniGO, undergraduates can search for classroom information and
+            receive personal notifications for their credit courses.
           </p>
           <button
             @click="isShort0 = !isShort0"
             v-if="isShort0"
             class="users__students--description-full"
           >
-            Đọc thêm
+            Learn more
           </button>
         </div>
       </div>
@@ -76,22 +76,21 @@
           data-aos-duration="1500"
           class="users__contents--wrapper"
         >
-          <h2>Tân sinh viên</h2>
+          <h2>Freshmen</h2>
           <p v-if="isShort1" class="users__students--description-summary">
-            Là vị “Cứu tinh” cho các bạn tân sinh viên dễ dàng trong việc tìm
-            kiếm...
+            uniGO is a “life-saver” that makes it easier for newbies to find...
           </p>
           <p v-if="!isShort1" class="users__students--description-summary">
-            Là vị “Cứu tinh” cho các bạn tân sinh viên dễ dàng trong việc tìm
-            kiếm các khu giảng đường trong trường, cũng như thông tin và vị trí
-            của phòng chức năng.
+            uniGO is a “life-saver” that makes it easier for newbies to find
+            lecture halls as well as information and location of functional
+            departments.
           </p>
           <button
             @click="isShort1 = !isShort1"
             v-if="isShort1"
             class="users__students--description-full"
           >
-            Đọc thêm
+            Learn more
           </button>
         </div>
       </div>
@@ -123,20 +122,20 @@
           data-aos-duration="1500"
           class="users__contents--wrapper lecturers-width"
         >
-          <h2>Giảng viên</h2>
+          <h2>Lecturers</h2>
           <p v-if="isShort2" class="users__students--description-summary">
-            uniGO giúp giảng viên kiểm soát lịch dạy học của mình...
+            uniGO assists lecturers in managing their teaching schedule...
           </p>
           <p v-if="!isShort2" class="users__students--description-summary">
-            uniGO giúp giảng viên kiểm soát lịch dạy học của mình đồng thời nắm
-            được các thông báo chi tiết liên quan.
+            uniGO assists lecturers in managing their teaching schedule and
+            receiving related notices.
           </p>
           <button
             @click="isShort2 = !isShort2"
             v-if="isShort2"
             class="users__students--description-full"
           >
-            Đọc thêm
+            Learn more
           </button>
         </div>
       </div>
@@ -168,22 +167,27 @@
           data-aos-duration="1500"
           class="users__contents--wrapper"
         >
-          <h2>Khách tham quan</h2>
-          <p v-if="isShort3" class="users__students--description-summary summary--bot">
-            Không cần tốn thời gian vào việc hỏi đường và tra cứu bản đồ thủ
-            công...
+          <h2>Visitors</h2>
+          <p
+            v-if="isShort3"
+            class="users__students--description-summary summary--bot"
+          >
+            Without asking for help or looking at the old-fashioned map...
           </p>
-          <p v-if="!isShort3" class="users__students--description-summary summary--bot">
-            Không cần tốn thời gian vào việc hỏi đường và tra cứu bản đồ thủ
-            công. Bạn có thể sử dụng ứng dụng để khám phá khuôn viên đẹp và thơ
-            mộng với diện tích hơn 24ha của trường.
+          <p
+            v-if="!isShort3"
+            class="users__students--description-summary summary--bot"
+          >
+            Without asking for help or looking at the old-fashioned map, when
+            visitors install uniGO, they will be able to explore the beautiful
+            campus with an area of more than 24ha.F.
           </p>
           <button
             @click="isShort3 = !isShort3"
             v-if="isShort3"
             class="users__students--description-full"
           >
-            Đọc thêm
+            Learn more
           </button>
         </div>
       </div>
@@ -213,22 +217,28 @@
           data-aos-duration="1500"
           class="users__contents--wrapper"
         >
-          <h2>CLB, đội nhóm, đơn vị tổ chức sự kiện</h2>
-          <p v-if="isShort4" class="users__students--description-summary summary--bot">
-            Các CLB, đội nhóm từ nay sẽ không phải đau đầu khi tổ chức sự kiện
-            lớn tại Bách Khoa...
+          <h2>Clubs, Organizations</h2>
+          <p
+            v-if="isShort4"
+            class="users__students--description-summary summary--bot"
+          >
+            Clubs and Organizations can suggest their guests to actively
+            search...
           </p>
-          <p v-if="!isShort4" class="users__students--description-summary summary--bot">
-            Tính năng thông báo sự kiện của uniGO giúp các CLB, đội nhóm quảng
-            bá event của mình. Người tham gia chủ động tra cứu nhanh thông tin
-            phòng, giúp việc tổ chức diễn ra thuận lợi và suôn sẻ.
+          <p
+            v-if="!isShort4"
+            class="users__students--description-summary summary--bot"
+          >
+            Clubs and Organizations can suggest their guests to actively search
+            for revenue information using uniGO in order to make the events go
+            smoothly without a hitch.
           </p>
           <button
             @click="isShort4 = !isShort4"
             v-if="isShort4"
             class="users__students--description-full"
           >
-            Đọc thêm
+            Learn more
           </button>
         </div>
       </div>

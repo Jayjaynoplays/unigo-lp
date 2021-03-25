@@ -5,7 +5,7 @@
       ripple="ripple"
       @click="showPanel"
     >
-      Thử Ngay <em class="fas fa-download" style="padding-left: 12px"></em>
+      Try uniGO <em class="fas fa-download" style="padding-left: 12px"></em>
     </button>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     showPanel() {
       setTimeout(() => {
         this.$emit("show_panel");
-      },500);
+      }, 500);
     },
   },
 };

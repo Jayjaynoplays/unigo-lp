@@ -7,7 +7,7 @@
         ripple="ripple"
         @click="showPanel"
       >
-        <div>Thử ngay</div>
+        <div>Try uniGO</div>
         <div><em class="fas fa-arrow-down fa-2x"></em></div>
       </button>
     </a>
@@ -18,7 +18,7 @@
         class="btn--common btn--home btn--home--animation"
         ripple="ripple"
       >
-        <div>Khám phá ngay</div>
+        <div>Discover</div>
         <div>
           <img
             src="../../../assets/home/img/discover.svg"
@@ -100,7 +100,7 @@ a {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  #btn--try  {
+  #btn--try {
     margin-left: 25px;
   }
   #btn--discover {

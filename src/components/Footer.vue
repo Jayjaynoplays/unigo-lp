@@ -32,51 +32,51 @@
                 style="justify-content: left"
               >
                 (+84) 915 469 728 <br /><span
-                  >(Phạm Mạnh Dũng - Quản lý dự án)</span
+                  >(Phạm Mạnh Dũng - Project Manager)</span
                 >
               </p>
             </div>
           </div>
         </div>
         <div class="footer__link-sections">
-          <p class="footer__font-title">Liên kết nhanh</p>
+          <p class="footer__font-title">Quick Links</p>
           <div class="footer__links-item--wrapper">
             <img
               src="../assets/fast-forward 1.svg"
               class="footer__contact-item--icon"
-            /><a href="#home" class="footer__font-content">Trang chủ</a>
+            /><a href="#home" class="footer__font-content">Home</a>
           </div>
           <div class="footer__links-item--wrapper">
             <img
               src="../assets/fast-forward 1.svg"
               class="footer__contact-item--icon"
-            /><a href="#features" class="footer__font-content">Tính năng</a>
+            /><a href="#features" class="footer__font-content">Features</a>
           </div>
           <div class="footer__links-item--wrapper">
             <img
               src="../assets/fast-forward 1.svg"
               class="footer__contact-item--icon"
-            /><a href="#user" class="footer__font-content">Đối tượng sử dụng</a>
+            /><a href="#user" class="footer__font-content">Targeted Users</a>
           </div>
           <div class="footer__links-item--wrapper">
             <img
               src="../assets/fast-forward 1.svg"
               class="footer__contact-item--icon"
             /><a href="#questions" class="footer__font-content"
-              >Các câu hỏi thường gặp</a
+              >Common Questions</a
             >
           </div>
         </div>
         <div class="footer__form--wrapper">
           <p class="footer__font-title form-font">
-            Bạn hãy để lại Gmail để nhận thông báo về ứng dụng sớm nhất nhé!
+            Leave your email below to get latest news about our product!
           </p>
           <div class="footer__form-subcribe--wrapper">
             <input
               placeholder="example@gmail.com"
               class="footer__form--input"
             /><button class="footer__form--button footer__font-content">
-              Đăng kí
+              Subcribe
             </button>
           </div>
         </div>

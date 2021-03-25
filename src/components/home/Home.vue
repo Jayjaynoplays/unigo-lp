@@ -11,16 +11,16 @@
         >
           <div class="home--title">
             <h1>
-              <span style="color: #0b66bf">uniGO</span> - Hệ thống mô phỏng ảo
-              bản đồ trường ĐH Bách Khoa - Đại học Đà Nẵng
+              <span style="color: #0b66bf">uniGO</span> - Danang University of
+              Technology virtual interactive map.
             </h1>
           </div>
           <div class="home--text">
             <p>
-              Sản phẩm được phát triển bởi Developer Student Clubs. Bằng cách áp
-              dụng thuật toán cơ bản và các nền tảng công nghệ mới phổ biến,
-              uniGO giúp người dùng tra cứu thông tin, địa điểm chính xác của
-              các phòng học dễ dàng hơn.
+              Designed by Developer Student Clubs with basic algorithms and
+              popular technology platforms, uniGO makes it easier for users to
+              locate classrooms, buildings, functional departments… as well as
+              to look up for detailed information on these locations.
             </p>
           </div>
 

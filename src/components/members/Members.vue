@@ -2,7 +2,7 @@
   <section id="members">
     <div class="members--wrapper">
       <h1 class="section--title">
-        Thành viên tham gia
+        Members
         <div class="member__title-line--separator"></div>
       </h1>
       <div class="members__carousel--wrapper">
