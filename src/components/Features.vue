@@ -8,7 +8,7 @@
             <div class="feature__title-line--separator"></div>
           </div>
           <div class="features__title--description">
-            Being a smart solution developed on website and mobile app, uniGO
+            Being a technology-based solution developed on mobile app, uniGO
             offers the following features:
           </div>
         </div>

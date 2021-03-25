@@ -12,7 +12,7 @@
           <div class="home--title">
             <h1>
               <span style="color: #0b66bf">uniGO</span> - Danang University of
-              Technology virtual interactive map.
+              Technology virtual interactive map
             </h1>
           </div>
           <div class="home--text">

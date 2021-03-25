@@ -3,7 +3,7 @@
     <div class="question--wrapper">
       <div class="question__title--wrapper">
         <div class="question__title-line--left"></div>
-        <div class="question__title--font">Câu hỏi thường gặp</div>
+        <div class="question__title--font">Common Questions</div>
         <div class="question__title-line--right"></div>
       </div>
       <div class="question__content--wrapper">
@@ -26,9 +26,8 @@
             :style="isAnswer0 ? height2 : height"
           >
             <div class="question__answer--detail">
-              <b>uniGO</b> ra đời với mong muốn xây dựng và đóng góp vào cộng
-              đồng. Được mọi người đón nhận và từng bước ứng dụng trong thực
-              tiễn.
+              Having several practical applications, <strong>uniGO</strong> is
+              formed in order to build and contribute to the community.
             </div>
           </div>
         </div>
@@ -49,14 +48,13 @@
             :style="isAnswer1 ? height2 : height"
           >
             <div class="question__answer--detail">
-              <b
+              <strong
                 >DSC - DUT (Developer Student Clubs - Da Nang University of
-                Science and Technology)</b
-              >
-              là cộng đồng do Google Developers bảo trợ. Gồm các bạn sinh viên
-              trẻ năng động đến từ các trường đại học trực thuộc đại học Đà
-              Nẵng, quan tâm tới việc xây dựng và đưa ra các giải pháp phát
-              triển cộng đồng.
+                Science and Technology)
+              </strong>
+              is a community sponsored by Google Developers. DSC-DUT members are
+              active students from Danang University, who wish to address
+              problems and build solutions for community development.
             </div>
           </div>
         </div>
@@ -79,9 +77,10 @@
             :style="isAnswer2 ? height2 : height"
           >
             <div class="question__answer--detail">
-              <b>Hoàn toàn không.</b> Đây là sản phẩm phi lợi nhuận được phát
-              triển bởi DSC - DUT cho đơn vị trường Đại học Bách Khoa, hỗ trợ
-              tra cứu thông tin địa điểm nhanh chóng và chính xác.
+              <strong>Absolutely not!</strong> This is a non-profit product that
+              DSC-DUT develop for Danang University of Science and Technology
+              with a view to assist users to look up location information
+              quickly and accurately.
             </div>
           </div>
         </div>
@@ -104,9 +103,9 @@
             :style="isAnswer3 ? height2 : height"
           >
             <div class="question__answer--detail">
-              Hiện tại, sản phẩm sẽ được thiết kế dùng trước trên website và mở
-              rộng ra điện thoại. Trước mắt, các thiết bị sẽ yêu cầu
-              <b>có kết nối internet</b> (3G/4G/Wifi) để có thể sử dụng.
+              <strong>uniGO</strong> is developed for mobile app. At present,
+              devices do not have to connect to the Internet to be able to run
+              this app.
             </div>
           </div>
         </div>
@@ -231,7 +230,6 @@ export default {
   text-align: center;
   width: auto;
   margin: auto;
-  
 }
 
 .question__content--wrapper {

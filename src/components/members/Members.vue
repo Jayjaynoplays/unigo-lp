@@ -2,7 +2,7 @@
   <section id="members">
     <div class="members--wrapper">
       <h1 class="section--title">
-        Members
+        Team Members
         <div class="member__title-line--separator"></div>
       </h1>
       <div class="members__carousel--wrapper">
