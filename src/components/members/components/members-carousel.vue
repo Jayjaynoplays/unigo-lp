@@ -127,9 +127,9 @@
             <p class="member--name center-text" style="margin-top: 2px">
               Nguyễn Hữu Đức Huy
             </p>
-            <p class="department--name center-text" style="margin-top: -10px">
+            <!-- <p class="department--name center-text" style="margin-top: -10px">
               a.k.a Trùm-Cuối
-            </p>
+            </p> -->
           </b-col>
 
           <b-col class="ml-55">

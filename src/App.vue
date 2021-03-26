@@ -60,7 +60,7 @@ export default {
     height: 58vw;
   }
   .features__title--wrapper {
-    width: 40%;
+    width: 45%;
   }
   .features__title--font p {
     font-size: 29px !important;
